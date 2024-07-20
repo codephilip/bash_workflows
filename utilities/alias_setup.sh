@@ -60,5 +60,11 @@ alias pjt='cd ~/projects'
 # Custom alias for clearing the terminal
 alias cls='clear'
 
+# Aliases for environment setup scripts
+alias create-react='~/bash_workflows/environment_setup/create_react_project.sh'
+alias setup-dev='~/bash_workflows/environment_setup/dev_env_setup.sh'
+alias setup-prod='~/bash_workflows/environment_setup/prod_env_setup.sh'
+alias setup-test='~/bash_workflows/environment_setup/test_env_setup.sh'
+
 # Source this file in your ~/.bashrc or ~/.bash_profile
 # source ~/bash_workflows/utilities/alias_setup.sh
