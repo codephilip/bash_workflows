@@ -61,10 +61,10 @@ alias pjt='cd ~/projects'
 alias cls='clear'
 
 # Aliases for environment setup scripts
-alias create-react='~/.config/bash_workflows/environment_setup/create_react_project.sh'
-alias setup-dev='~/.config/bash_workflows/environment_setup/dev_env_setup.sh'
-alias setup-prod='~/.config/bash_workflows/environment_setup/prod_env_setup.sh'
-alias setup-test='~/.config/bash_workflows/environment_setup/test_env_setup.sh'
+alias create-react='~/.config/bash/environment_setup/create_react_project.sh'
+alias setup-dev='~/.config/bash/environment_setup/dev_env_setup.sh'
+alias setup-prod='~/.config/bash/environment_setup/prod_env_setup.sh'
+alias setup-test='~/.config/bash/environment_setup/test_env_setup.sh'
 
 # Aliases for fzf commands
 alias fcd='cd $(find . -type d | fzf)' # Fuzzy search and change directory
@@ -74,4 +74,4 @@ alias fhist='history | fzf' # Fuzzy search command history
 alias fkill='kill -9 $(ps -ef | fzf | awk "{print $2}")' # Fuzzy search and kill process
 
 # Source this file in your ~/.bashrc or ~/.bash_profile
-# source ~/.config/bash_workflows/utilities/alias_setup.sh
+# source ~/.config/bash/utilities/alias_setup.sh

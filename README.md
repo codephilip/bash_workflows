@@ -50,5 +50,5 @@ This repository contains various Bash scripts organized by their function and pu
 
 1. **Source Aliases and Functions**: Add the following line to your `~/.bashrc` or `~/.bash_profile` to source custom aliases and functions.
    ```bash
-   source ~/.config/bash_workflows/utilities/alias_setup.sh
+   source ~/.config/bash/utilities/alias_setup.sh
    ```
